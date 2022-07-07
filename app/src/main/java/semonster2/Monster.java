@@ -16,7 +16,9 @@ public class Monster {
 
   @Override
   public String toString() {
-
+    if (this.name == "デュラハン") {
+      this.rare = 0;
+    }
     return this.name + ":レア度[" + this.rare + "]\n";
   }
 }

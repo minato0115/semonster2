@@ -8,7 +8,7 @@ public class MonsterTest {
   public void testSummonMonster1() {
     Monster monster = new Monster(0, 0);
     Assert.assertEquals("スライム:レア度[0]\n", monster.toString());
-
+    // Assert.assertEquals("デュラハン:レア度[0]\n", monster.toString());
   }
 
 }

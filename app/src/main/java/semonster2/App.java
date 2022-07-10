@@ -13,7 +13,7 @@ public class App {
 
   public static void main(String[] args) {
     System.out.println(new App().getGreeting());
-    SeMonsterGame mf = new SeMonsterGame(createRandomList(10));
+    SeMonsterGame mf = new SeMonsterGame(createRandomList(16));
     mf.addPlayer("user");
     mf.draw("user");
 
@@ -30,7 +30,6 @@ public class App {
     for (int i = 0; i < count; i++) {
       randNumList.add(random.nextInt(maxRandomNumber + 1));
     }
-
     return randNumList;
   }
 
